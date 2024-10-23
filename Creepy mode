@@ -1,0 +1,26 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Made by anzor5458)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(1)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("creepy mode",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("l'm gay (:",true)
+
+-- froger 
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,120))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(2)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anzor5458/Nope-/refs/heads/main/Pressure'))()
+    end
+end)()
+
+-- chainsmoker 
+coroutine.wrap(function()
+    while true do
+        wait(math.random(20,30))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(2)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anzor5458/Nope-/refs/heads/main/Pressure%202'))()
+    end
+end)()
